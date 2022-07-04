@@ -52,4 +52,10 @@ We can dig a bit more deeper to understand this MultiNLI thing,
 
 MultiNLI corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. MultiNLI 0.9 differs from MultiNLI 1.0 only in the pairID and promptID fields in the training.
 
-            c. SQuAD v1.1 question answering Test F1 to 93.2 
+            c. SQuAD v1.1 question answering Test F1 to 93.2 - Stanford Question Answering Dataset (SQuAD)
+
+We can dig a bit more deeper to understand this MultiNLI thing,
+
+Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
+
+SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 unanswerable questions written adversarially by crowdworkers to look similar to answerable ones. To do well on SQuAD2.0, systems must not only answer questions when possible, but also determine when no answer is supported by the paragraph and abstain from answering.
